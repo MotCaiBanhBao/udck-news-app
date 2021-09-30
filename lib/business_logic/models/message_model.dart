@@ -1,4 +1,4 @@
-class Message {
+class MessageModel {
   String id;
   DateTime timeStamp = DateTime.now();
   String userName;
@@ -6,7 +6,7 @@ class Message {
   String content;
   String photoUrl;
 
-  Message({
+  MessageModel({
     required this.id,
     required this.userID,
     required this.userName,
